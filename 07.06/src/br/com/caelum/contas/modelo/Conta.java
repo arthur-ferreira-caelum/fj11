@@ -1,5 +1,12 @@
 package br.com.caelum.contas.modelo;
 
+/**
+ * Modelo de uma conta para o banco.
+ * 
+ * @author Arthur Franco Ferreira
+ * @since 18/09/2016
+ *
+ */
 public class Conta {
 
 	// Atributos de instancia
@@ -11,10 +18,20 @@ public class Conta {
 
 	// Metodos
 	
+	/**
+	 * Adiciona um valor ao saldo da conta.
+	 * 
+	 * @param valor Valor a ser adicionado ao saldo da conta.
+	 */
 	public void deposita(double valor) {
 		this.saldo += valor;
 	}
 	
+	/**
+	 * Remove um valor do saldo da conta.
+	 * 
+	 * @param valor Valor a ser debitado do saldo da conta.
+	 */
 	public void saca(double valor) {
 		this.saldo -= valor;
 	}
