@@ -9,13 +9,13 @@ package br.com.caelum.contas.modelo;
  */
 public class ContaPoupanca extends Conta {
 
-	/**
-	 * Define o tipo da conta.
+	/*
+	 * (non-Javadoc)
 	 * 
-	 * @return O texto informativo do tipo da conta
+	 * @see br.com.caelum.contas.modelo.Conta#getTipo()
 	 */
 	public String getTipo() {
 		return "Conta Poupança";
 	} // fim getTipo
-	
+
 } // fim ContaPoupanca

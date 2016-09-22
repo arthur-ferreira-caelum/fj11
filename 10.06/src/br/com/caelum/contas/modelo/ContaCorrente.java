@@ -11,14 +11,14 @@ public class ContaCorrente extends Conta {
 
 	@Override
 	public void saca(double valor) {
-		//this.saldo -= (valor + 0.10);
+		// this.saldo -= (valor + 0.10);
 		super.saca(valor + 0.10);
 	}
-	
-	/**
-	 * Define o tipo da conta.
+
+	/*
+	 * (non-Javadoc)
 	 * 
-	 * @return O texto informativo do tipo da conta
+	 * @see br.com.caelum.contas.modelo.Conta#getTipo()
 	 */
 	public String getTipo() {
 		return "Conta Corrente";

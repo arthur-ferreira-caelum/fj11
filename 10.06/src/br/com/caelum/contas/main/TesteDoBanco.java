@@ -1,6 +1,7 @@
 package br.com.caelum.contas.main;
 
 import br.com.caelum.contas.modelo.Conta;
+import br.com.caelum.contas.modelo.ContaCorrente;
 
 /**
  * Programa que faz testes nas classes e c&oatilde;digos para o Banco.
@@ -12,11 +13,12 @@ public class TesteDoBanco {
 	/**
 	 * M&eacute;todo de execu&ccedil;&atilde;o do programa
 	 * 
-	 * @param args Argumentos passados por par&acirc;metro.
+	 * @param args
+	 *            Argumentos passados por par&acirc;metro.
 	 * @since 20/09/2016
 	 */
 	public static void main(String[] args) {
-		Conta conta = new Conta();
+		Conta conta = new ContaCorrente();
 		conta.setNumero(1);
 		conta.setAgencia("3028");
 		conta.setTitular("Luke");
