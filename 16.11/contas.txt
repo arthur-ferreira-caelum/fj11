@@ -1,0 +1,4 @@
+Conta Corrente,1,1,Arthur,1000.0
+Conta Poupança,2,2,Aline,20000.0
+Conta Poupança,3,3,Giovanna,30000.0
+Conta Poupança,4,4,Helenna,40.0
